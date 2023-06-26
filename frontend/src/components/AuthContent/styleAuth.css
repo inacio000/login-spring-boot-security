@@ -1,0 +1,61 @@
+.contentContainer {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 9rem);
+    color: #e1e1e6;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentContainer span {
+    color: #61dafb;
+}
+
+.hero {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero span {
+    font-weight: bold;
+    background-color: transparent;
+}
+
+main h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-weight: 900;
+    margin-top: 2.5rem;
+}
+
+main p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-top: 1.5rem;
+}
+
+main button {
+    margin-top: 2.5rem;
+}
+
+@media(max-width: 755px) {
+    .contentContainer {
+        height: auto;
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }    
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,16 @@
+.content {
+    margin-top: 1rem;
+}
+
+.row-content {
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #e1e1e6;
+}
+
+.row-content span {
+    color: #eba417;
+}
